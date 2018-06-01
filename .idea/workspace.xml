@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9cca720-a765-4ec4-8da5-f803cc91c828" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/artm/hierarchy_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/artm/hierarchy_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/artm/utility/create_cooc_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/artm/utility/create_cooc_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_artm_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_artm_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_batches_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_batches_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_dump_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_dump_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_hartm.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_hartm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_lda_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_lda_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_biterms.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_biterms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_decorrelator.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_decorrelator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_net_plsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_net_plsa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_smooth_sparse_theta.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_smooth_sparse_theta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_topic_segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_topic_segmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_topic_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_regularizer_topic_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_time_regularizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/artm/test_time_regularizers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_01_synthetic_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_01_synthetic_collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_02_regularizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_02_regularizers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_03_concurrency.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_03_concurrency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_04_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_04_dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_05_multimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_05_multimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_06_get_theta.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_06_get_theta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_07_initialize_and_get_phi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_07_initialize_and_get_phi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_08_import_export_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_08_import_export_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_09_online_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_09_online_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_10_attach_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_10_attach_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_11_master_model_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_11_master_model_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_12_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigartm/bigartm/python/tests/wrapper/test_12_version.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/doc2vec_test$lda_topic_model.coverage" NAME="lda_topic_model Coverage Results" MODIFIED="1527152442918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$batches_parser.coverage" NAME="batches_parser Coverage Results" MODIFIED="1526948396965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$artm_module.coverage" NAME="artm_module Coverage Results" MODIFIED="1526951763901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$artm.coverage" NAME="artm Coverage Results" MODIFIED="1526951669568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$doc2vec__1_.coverage" NAME="doc2vec (1) Coverage Results" MODIFIED="1527145161430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$doc2vec.coverage" NAME="doc2vec Coverage Results" MODIFIED="1527141469005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1527141348177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$wiki_prepare.coverage" NAME="wiki_prepare Coverage Results" MODIFIED="1526833076800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doc2vec_test$text_html.coverage" NAME="text_html Coverage Results" MODIFIED="1527147328622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="text_to_VW.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_to_VW.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doc2vec_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc2vec_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doc2vec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc2vec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="17" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lda_topic_model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lda_topic_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-end-line="34" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artm_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artm_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_html.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_html.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" selection-end-line="24" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>html_to</find>
+      <find>bea</find>
+      <find>it</find>
+      <find>parse_page_da</find>
+      <find>morph</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bigartm/bigartm" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wiki_prepare.py" />
+        <option value="$PROJECT_DIR$/process_wiki.py" />
+        <option value="$PROJECT_DIR$/venv/habr_parser.py" />
+        <option value="$PROJECT_DIR$/habr_parser.py" />
+        <option value="$PROJECT_DIR$/artm.py" />
+        <option value="$PROJECT_DIR$/habrahabr_corpus_multimodal.txt" />
+        <option value="$PROJECT_DIR$/batches_parser.py" />
+        <option value="$PROJECT_DIR$/vocabulary.txt" />
+        <option value="$PROJECT_DIR$/habrahabr_corpus.txt" />
+        <option value="$PROJECT_DIR$/artm_module.py" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/tagged_corpus.txt" />
+        <option value="$PROJECT_DIR$/data/test_doc1.txt" />
+        <option value="$PROJECT_DIR$/data/test_doc2.txt" />
+        <option value="$PROJECT_DIR$/test_doc3.txt" />
+        <option value="$PROJECT_DIR$/text_to_VW.py" />
+        <option value="$PROJECT_DIR$/doc2vec_train.py" />
+        <option value="$PROJECT_DIR$/text_html.py" />
+        <option value="$PROJECT_DIR$/doc2vec.py" />
+        <option value="$PROJECT_DIR$/preprocess.py" />
+        <option value="$PROJECT_DIR$/lda_topic_model.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="47" />
+    <option name="width" value="1279" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="doc2vec_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc2vec_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc2vec_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doc2vec_test" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doc2vec_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="doc2vec_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (doc2vec_test) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.lda_topic_model">
+    <configuration name="doc2vec (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doc2vec_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/doc2vec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="doc2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doc2vec_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/doc2vec_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lda_topic_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doc2vec_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lda_topic_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doc2vec_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="text_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doc2vec_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_html.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.doc2vec" />
+      <item itemvalue="Python.text_html" />
+      <item itemvalue="Python.doc2vec (1)" />
+      <item itemvalue="Python.preprocess" />
+      <item itemvalue="Python.lda_topic_model" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.lda_topic_model" />
+        <item itemvalue="Python.text_html" />
+        <item itemvalue="Python.doc2vec (1)" />
+        <item itemvalue="Python.doc2vec" />
+        <item itemvalue="Python.preprocess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9cca720-a765-4ec4-8da5-f803cc91c828" name="Default" comment="" />
+      <created>1526764556190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526764556190</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3327869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14684756" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="39" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wiki.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/habr_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc2vec_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_wiki.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki.txt_bow.mm" />
+    <entry file="file://$PROJECT_DIR$/wiki.txt_tfidf.mm" />
+    <entry file="file:///usr/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/habr_posts/._exception_1" />
+    <entry file="file://$PROJECT_DIR$/habr_posts/2" />
+    <entry file="file://$PROJECT_DIR$/habr_posts/1" />
+    <entry file="file://$PROJECT_DIR$/habrahabr_corpus_multimodal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/bigartm-0.9.0-py3.6.egg/artm/wrapper/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/bigartm-0.9.0-py3.6.egg/artm/batches_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="110" column="87" lean-forward="true" selection-start-line="110" selection-start-column="87" selection-end-line="110" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/habr_text/92969">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/habrahabr_corpus_multimodal.txt" />
+    <entry file="file://$PROJECT_DIR$/habrahabr_corpus_multimodal.txt">
+      <provider editor-type-id="LargeFileEditor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pydata_batches/aaaady.batch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pydata_batches/aaaabi.batch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pydata_batches/dictionary.dict" />
+    <entry file="file://$PROJECT_DIR$/data/pydata_batches/aaaaab.batch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pydata_batches/aaaaaa.batch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batches_parser.py" />
+    <entry file="file://$PROJECT_DIR$/vocabulary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki.corpus">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-3645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt" />
+    <entry file="file://$PROJECT_DIR$/tagged_corpus.txt" />
+    <entry file="file://$PROJECT_DIR$/process_wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/habr_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gensim/models/base_any2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="746" column="8" selection-start-line="746" selection-start-column="8" selection-end-line="746" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_doc3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8338" lean-forward="true" selection-start-column="8338" selection-end-column="8338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_doc2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_doc4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_doc1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/habrahabr_corpus.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="15">
+          <caret column="1015" lean-forward="true" selection-start-column="1015" selection-end-column="1015" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="164" lean-forward="true" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/doc.txt" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gensim/models/doc2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="235" column="6" selection-start-line="235" selection-start-column="6" selection-end-line="235" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_to_VW.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc2vec_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gensim/models/keyedvectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="1252" column="8" selection-start-line="1252" selection-start-column="8" selection-end-line="1252" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artm_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda_topic_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
